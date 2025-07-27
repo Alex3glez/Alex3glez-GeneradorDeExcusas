@@ -3,3 +3,66 @@
 body{
     background: white;
 }
+header{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(98, 98, 202);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+}
+#frase {
+    background-color: gainsboro;
+    border-color: black;
+    border-radius: 10px;
+    border-style: double;
+    width: 500px;
+    height: 100px;
+    padding: 7px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 20px;  
+}
+#imagenVago {
+    height: 700px;
+    width: 700px;
+    float: left;
+    display: flex;
+}
+#boton {align-items: center;
+    align-content: center;
+    padding: 10px 20px;
+}
+#box {width: 100%;
+    display: flex;
+}
+#boxText{
+    align-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 200px;
+   background-color: aquamarine;
+   width: 700px;
+   height: 500px;
+   border-radius: 30px;
+   margin: auto;
+}
+#contador{
+    font-style: italic;
+    font-size: 0.7em;
+    color: gray;
+}
+#imagenFinal {
+    display: none;
+    height: 700px;
+    width: 700px;
+    float: left;
+}

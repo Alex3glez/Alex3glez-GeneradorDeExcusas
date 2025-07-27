@@ -4,32 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Alex3glex-Generador de Excusas</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="module" src="app.js" defer></script>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <header><h1>Una buena excusa para vaguear</h1></header>
+  
+  <div id="box">
+    <div>
+      <img id="imagenFinal" src="https://st.depositphotos.com/1724125/1333/v/950/depositphotos_13339609-stock-illustration-anxiety-attack.jpg" alt="ifinal">
+      <img  id="imagenVago" src="https://previews.123rf.com/images/indomercy/indomercy1412/indomercy141200069/34831335-Hombre-vago-sue-o-en-el-sof--Foto-de-archivo.jpg" alt="foto">
     </div>
-
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
+    
+    <div id="boxText">
+    <p id="frase"> Aquí se vera la excusa</p>
+    <button id="boton">Generar excusa</button>
+    <p id="contador">Te quedan 5 excusas</p>
+    </div>
+  </div>
   </body>
 </html>
